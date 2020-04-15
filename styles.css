@@ -238,7 +238,6 @@ header{
     color: #01365D;
     text-shadow: 1px 1px 10px #D7D9D7;
     text-transform: uppercase;
-
 }
 
 /*.josh{
@@ -306,3 +305,21 @@ header{
     text-shadow: 1px 1px 10px #D7D9D7;
 }
 
+/* Projects Section */
+
+.title-heading h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: #01365D;
+    text-shadow: 1px 1px 10px #D7D9D7;
+    text-transform: uppercase;
+}
+
+.mac{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
