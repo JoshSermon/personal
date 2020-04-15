@@ -230,5 +230,79 @@ header{
     background-color: #fff;
 }
 
+.title-heading h3{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: #01365D;
+    text-shadow: 1px 1px 10px #D7D9D7;
+    text-transform: uppercase;
 
+}
+
+/*.josh{
+    border-radius: 5px;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+*/
+
+.section-title{
+    text-align: center;
+    color: #01365D;
+    font-size: 32px;
+    text-shadow: 1px 1px 10px #D7D9D7;
+}
+
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-box{
+    padding: 10px;
+    text-align: center;
+    color: #01365D;
+}
+
+.service-icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #01365D;
+    color: #01365D;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+    text-shadow: 1px 1px 10px #D7D9D7;
+}
+
+.service-icon i{
+    line-height: 39px;
+    transform: rotate(-45deg);
+    font-size: 25px;
+}
+
+.service-box:hover .service-icon{
+    background: #01365D;
+    color: #fff;
+}
+
+.service-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 4px black;
+}
+
+.service-desc{
+    font-size: 20px;
+    text-shadow: 1px 1px 10px #D7D9D7;
+}
 
