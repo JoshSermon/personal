@@ -138,6 +138,9 @@ header{
         float: left;
         font-size: 15px;
         text-shadow: 1px 1px 2px #000000;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
 }
 
 .nav-link1{
@@ -149,6 +152,19 @@ header{
     float: right;
     font-size: 15px;
     text-shadow: 1px 1px 2px #000000;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: #01365D;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.nav-link1:hover{
+    color: #01365D;
+    text-shadow: 1px 1px 2px #fff;
 }
 
 .logo{
@@ -191,27 +207,30 @@ header{
     transform: translateY(20%);
     text-align: center;
     margin: 25px 0;
-    margin-top: 50px;
+    margin-top: 65px;
     text-shadow: 1px 1px 3px #000000;
 }
 
 .main-message h3{
-    font-size: 2.0rem;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande';
-    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
     margin: 1px;
 }
 
 .main-message h1{
-    font-family: myFirstFont;
-    font-size: 5.4rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 4.5rem;
     margin: 8px 0;
 }
 
 .main-message p{
     font-size: 1.6rem;
-    text-transform: capitalize;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande';
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
     margin: 6px;
 }
 
@@ -224,6 +243,7 @@ header{
     padding: 1rem 2.5rem;
     text-transform: uppercase;
     transition: background-color 650ms;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 .btn:hover{
@@ -233,9 +253,10 @@ header{
 .title-heading h3{
     font-size: 2rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
     margin-top: 10px;
-    color: #01365D;
+    color: #000000;
     text-shadow: 1px 1px 10px #D7D9D7;
     text-transform: uppercase;
 }
@@ -251,9 +272,11 @@ header{
 */
 
 .section-title{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
     text-align: center;
-    color: #01365D;
-    font-size: 32px;
+    color: #000000;
+    font-size: 28px;
     text-shadow: 1px 1px 10px #D7D9D7;
 }
 
@@ -273,7 +296,7 @@ header{
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 3px solid #01365D;
+    border: 3px solid #000;
     color: #01365D;
     transform: rotate(45deg);
     margin-bottom: 30px;
@@ -301,8 +324,11 @@ header{
 }
 
 .service-desc{
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 20px;
     text-shadow: 1px 1px 10px #D7D9D7;
+    margin: 10px 0;
+    color: #000000;
 }
 
 /* Projects Section */
@@ -310,10 +336,11 @@ header{
 .title-heading h1{
     font-size: 2rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400; 
     margin-top: 10px;
-    color: #01365D;
-    text-shadow: 1px 1px 10px #D7D9D7;
+    color: #fff;
+    text-shadow: 1px 1px 10px #000000;
     text-transform: uppercase;
 }
 
@@ -345,15 +372,17 @@ header{
   */
 
   footer p{
-    color: #01365D;
+    color: #000000;
     font-size: 12px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     padding: 1px 1rem;
     margin-bottom: 1px;
   }
 
   footer a {
-    color: #01365D;
+    color: #000000;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
     font-size: 15px;
     position: relative;
 }
@@ -363,13 +392,14 @@ header{
 }
 
     .s-m{
+    font-size: 12px;
     position: absolute;
     margin-left: 10px;
     margin-top: 12px;
    }
 
    .bl {
-       height: 55px;
+       height: 57px;
        width: 55px;
        position: absolute;
        left: 50%;
