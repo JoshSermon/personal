@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="projects.html">
     <link rel="stylesheet" href="contact.html">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 </head>
 <body>
@@ -34,16 +35,16 @@
                 <ul class="nav-list">
                     <div class="menu-icons close">
                     </div>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-right" data-aos-duration="1000">
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-right" data-aos-duration="1000">
                         <a href="#AboutMe" class="nav-link">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-left" data-aos-duration="1000">
                         <a href="contact.html" class="nav-link1">Contact</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-left" data-aos-duration="1000">
                         <a href="projects.html" class="nav-link1">Projects</a>
                     </li>
                 </ul>
@@ -61,12 +62,12 @@
                     <p> 
                         Based in Atlanta, GA
                     </p>
-                    <div class="cta">
+                    <div class="cta" data-aos="fade-up" data-aos-duration="1200">
                         <a href="projects.html" class="btn">Projects</a>
                     </div>
                 </div>
             </div>
-            <img src="images/Logo(White).png" alt="Logo" class="logo" style="width: 100px; height: 100px;">
+            <img src="images/Logo(White).png" alt="Logo" class="logo" style="width: 100px; height: 100px;" data-aos="fade-up" data-aos-duration="1200">
         </section>
 
         <section class="experience-outdoors">
@@ -80,7 +81,7 @@
                                 <div class="service-icon">
                                     <i class="fas fa-code"></i>
                                 </div>
-                                <div class="section-title">Skills</div>
+                                <div class="section-title" data-aos="flip-up" data-aos-duration="1000">Skills</div>
                                 <div class="service-desc">
                                     HTML5, CSS3, JavaScript, Git, Bootstrap, Responsive Web Design,
             RESTful API, React, jQuery, JSON, AJAX, Swift
@@ -92,7 +93,7 @@
                                 <div class="service-icon">
                                     <i class="fas fa-user-tie"></i>
                                 </div>
-                                <div class="section-title">Background</div>
+                                <div class="section-title" data-aos="flip-up" data-aos-duration="1000">Background</div>
                                 <div class="service-desc">
                                     I have a passion for web design and I enjoy creating and customizing websites and mobile devices. I focus on the client-side of development and I constanly work on my craft to improve and learn from mistakes. In addition, I am solution-driven to fix bugs that will allow websites to run efficiently. I strive to impact corporations through intuitive displays that captivate each customer to experience more.
                                 </div>
@@ -102,7 +103,7 @@
                                 <div class="service-icon">
                                     <i class="fas fa-camera"></i>
                                 </div>
-                                <div class="section-title">Design</div>
+                                <div class="section-title" data-aos="flip-up" data-aos-duration="1000">Design</div>
                                 <div class="service-desc">
                                     Adobe Photoshop, Adobe InDesign, Adobe Illustrator, and Adobe Premier Pro
                                 </div>
@@ -120,7 +121,7 @@
                 </div>
             </div>
             <a href="projects.html">
-            <img src="images/portfolio.png" alt="Logo" class="mac" style="width: 720px; height: 305px;">
+            <img src="images/portfolio.png" alt="Logo" class="mac" style="width: 720px; height: 305px;" data-aos="fade-up" data-aos-duration="1200">
             </a>
         </section>
     </main>
@@ -141,5 +142,10 @@
         <img src="images/Logobl.png" alt="logobl" class="bl">
     </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
