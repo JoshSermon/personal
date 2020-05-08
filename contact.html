@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="projects.html">
     <link rel="stylesheet" href="contact.html">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 </head>
 <body>
@@ -34,16 +35,16 @@
                 <ul class="nav-list">
                     <div class="menu-icons close">
                     </div>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-right" data-aos-duration="1000">
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-right" data-aos-duration="1000">
                         <a href="index.html" class="nav-link">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-left" data-aos-duration="1000">
                         <a href="contact.html" class="nav-link1">Contact</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-left" data-aos-duration="1000">
                         <a href="projects.html" class="nav-link1">Projects</a>
                     </li>
                 </ul>
@@ -56,7 +57,7 @@
         <section class="hero">
             <div class="contact-section">
 
-                <h1>Contact Me</h1>
+                <h1 data-aos="zoom-out" data-aos-duration="1500">Contact Me</h1>
                 <div class="border"></div>
                 <form class="contact-form" action="index.html" method="post">
                     <input type="text" class="contact-form-text" placeholder="Your name">
@@ -487,6 +488,9 @@ text-transform: uppercase;
     }
 }
 </style>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
