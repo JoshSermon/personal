@@ -104,7 +104,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 90px;
+  margin-top: 11rem;
 }
 
 .logo1 {
@@ -117,7 +117,7 @@ header {
 /*hero*/
 .hero {
   width: 100%;
-  height: 60vh;
+  height: 68vh;
   background: linear-gradient(360deg, #01365d, #e2e2e2 100%),
     url("images/header-bg.jpg") center no-repeat;
   background-size: cover;
@@ -141,7 +141,7 @@ header {
   transform: translateY(20%);
   text-align: center;
   margin: 25px 0;
-  margin-top: 65px;
+  margin-top: 90px;
   text-shadow: 1px 1px 3px #000000;
 }
 
