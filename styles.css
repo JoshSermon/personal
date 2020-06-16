@@ -71,7 +71,7 @@ header {
   float: left;
   font-size: 15px;
   text-shadow: 1px 1px 2px #000000;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: unset;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -85,7 +85,7 @@ header {
   float: right;
   font-size: 15px;
   text-shadow: 1px 1px 2px #000000;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: unset;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -98,6 +98,17 @@ header {
 .nav-link1:hover {
   color: #01365d;
   text-shadow: 1px 1px 2px #fff;
+}
+
+.josh {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #01365d;
+  margin-left: 44rem;
+  margin-right: auto;
+  margin-top: -8.5rem;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
@@ -117,7 +128,7 @@ header {
 /*hero*/
 .hero {
   width: 100%;
-  height: 68vh;
+  height: 84vh;
   background: linear-gradient(360deg, #01365d, #e2e2e2 100%),
     url("images/header-bg.jpg") center no-repeat;
   background-size: cover;
@@ -141,30 +152,31 @@ header {
   transform: translateY(20%);
   text-align: center;
   margin: 25px 0;
-  margin-top: 90px;
-  text-shadow: 1px 1px 3px #000000;
+  margin-top: 185px;
+  text-shadow: 1px 2px 3px #000000;
 }
 
 .main-message h3 {
-  font-size: 1.8rem;
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: unset;
+  font-weight: 900;
+  text-transform: capitalize;
   margin: 1px;
 }
 
 .main-message h1 {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  font-size: 4.5rem;
-  margin: 8px 0;
+  font-family: unset;
+  font-weight: 900;
+  font-size: 5rem;
+  margin: 2px 0;
+  width: 100%;
 }
 
 .main-message p {
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 400;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-family: unset;
+  font-weight: 900;
   margin: 6px;
 }
 
@@ -175,9 +187,10 @@ header {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 2.5rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   transition: background-color 650ms;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: unset;
+  font-size: 1.2rem;
 }
 
 .btn:hover {
@@ -187,8 +200,8 @@ header {
 .title-heading h3 {
   font-size: 2rem;
   text-align: center;
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: 400;
+  font-family: unset;
+  font-weight: 900;
   margin-top: 10px;
   color: #000000;
   text-shadow: 1px 1px 10px #d7d9d7;
@@ -206,7 +219,7 @@ header {
 */
 
 .section-title {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: unset;
   font-weight: bolder;
   text-align: center;
   color: #000000;
@@ -270,7 +283,7 @@ header {
 .title-heading h1 {
   font-size: 2rem;
   text-align: center;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: unset;
   font-weight: 400;
   margin-top: 10px;
   color: #fff;
@@ -283,7 +296,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: -80px;
+  margin-top: -40px;
 }
 
 /* footer section */
