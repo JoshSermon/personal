@@ -322,14 +322,14 @@ footer {
 footer p {
   color: #000000;
   font-size: 11px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: unset;
   padding: 2px 1rem;
   margin-top: 6px;
 }
 
 footer a {
   color: #000000;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: unset;
   font-weight: bold;
   font-size: 15px;
   position: relative;
@@ -387,8 +387,8 @@ footer a:hover {
     float: left;
     font-size: 14px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 600;
+    font-family: unset;
+    font-weight: 900;
     text-transform: uppercase;
   }
 
@@ -401,9 +401,13 @@ footer a:hover {
     float: right;
     font-size: 14px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 600;
+    font-family: unset;
+    font-weight: 900;
     text-transform: uppercase;
+  }
+
+  .josh {
+    display: none;
   }
 }
 
@@ -443,8 +447,8 @@ footer a:hover {
     float: left;
     font-size: 12px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 600;
+    font-family: unset;
+    font-weight: 900;
     text-transform: uppercase;
   }
 
@@ -457,8 +461,8 @@ footer a:hover {
     float: right;
     font-size: 12px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 600;
+    font-family: unset;
+    font-weight: 900;
     text-transform: uppercase;
   }
 }
@@ -498,8 +502,8 @@ footer a:hover {
     float: left;
     font-size: 10px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 600;
+    font-family: unset;
+    font-weight: 900;
     text-transform: uppercase;
   }
 
@@ -512,8 +516,8 @@ footer a:hover {
     float: right;
     font-size: 10px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 600;
+    font-family: unset;
+    font-weight: 900;
     text-transform: uppercase;
   }
 }
