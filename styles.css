@@ -208,16 +208,6 @@ header {
   text-transform: uppercase;
 }
 
-/*.josh{
-    border-radius: 5px;
-    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-*/
-
 .section-title {
   font-family: unset;
   font-weight: bolder;
