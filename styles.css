@@ -71,7 +71,7 @@ header {
   float: left;
   font-size: 15px;
   text-shadow: 1px 1px 2px #000000;
-  font-family: unset;
+  font-family: "Oswald";
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -85,7 +85,7 @@ header {
   float: right;
   font-size: 15px;
   text-shadow: 1px 1px 2px #000000;
-  font-family: unset;
+  font-family: "Oswald";
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -106,7 +106,7 @@ header {
   border: 1px solid #01365d;
   margin-left: 44rem;
   margin-right: auto;
-  margin-top: -8.5rem;
+  margin-top: -7.5rem;
   display: block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -152,21 +152,21 @@ header {
   transform: translateY(20%);
   text-align: center;
   margin: 25px 0;
-  margin-top: 185px;
+  margin-top: 160px;
   text-shadow: 1px 2px 3px #000000;
 }
 
 .main-message h3 {
   font-size: 2rem;
-  font-family: unset;
-  font-weight: 900;
+  font-family: "Oswald";
+  font-weight: 100;
   text-transform: capitalize;
   margin: 1px;
 }
 
 .main-message h1 {
-  font-family: unset;
-  font-weight: 900;
+  font-family: "Passion One";
+  font-weight: 100;
   font-size: 5rem;
   margin: 2px 0;
   width: 100%;
@@ -175,9 +175,9 @@ header {
 .main-message p {
   font-size: 1.8rem;
   text-transform: capitalize;
-  font-family: unset;
-  font-weight: 900;
-  margin: 6px;
+  font-family: "Oswald";
+  font-weight: 100;
+  margin: 1px;
 }
 
 .btn {
@@ -189,7 +189,7 @@ header {
   padding: 1rem 2.5rem;
   text-transform: capitalize;
   transition: background-color 650ms;
-  font-family: unset;
+  font-family: "oswald";
   font-size: 1.2rem;
 }
 
@@ -200,7 +200,7 @@ header {
 .title-heading h3 {
   font-size: 2rem;
   text-align: center;
-  font-family: unset;
+  font-family: "Oswald";
   font-weight: 900;
   margin-top: 10px;
   color: #000000;
@@ -209,7 +209,7 @@ header {
 }
 
 .section-title {
-  font-family: unset;
+  font-family: "Oswald";
   font-weight: bolder;
   text-align: center;
   color: #000000;
@@ -273,7 +273,7 @@ header {
 .title-heading h1 {
   font-size: 2rem;
   text-align: center;
-  font-family: unset;
+  font-family: "Oswald";
   font-weight: 400;
   margin-top: 10px;
   color: #fff;
@@ -312,14 +312,14 @@ footer {
 footer p {
   color: #000000;
   font-size: 11px;
-  font-family: unset;
+  font-family: "Oswald";
   padding: 2px 1rem;
   margin-top: 6px;
 }
 
 footer a {
   color: #000000;
-  font-family: unset;
+  font-family: "Oswald";
   font-weight: bold;
   font-size: 15px;
   position: relative;
@@ -377,7 +377,7 @@ footer a:hover {
     float: left;
     font-size: 14px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: unset;
+    font-family: "Oswald";
     font-weight: 900;
     text-transform: uppercase;
   }
@@ -391,7 +391,7 @@ footer a:hover {
     float: right;
     font-size: 14px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: unset;
+    font-family: "Oswald";
     font-weight: 900;
     text-transform: uppercase;
   }
@@ -437,7 +437,7 @@ footer a:hover {
     float: left;
     font-size: 12px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: unset;
+    font-family: "Oswald";
     font-weight: 900;
     text-transform: uppercase;
   }
@@ -451,7 +451,7 @@ footer a:hover {
     float: right;
     font-size: 12px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: unset;
+    font-family: "Oswald";
     font-weight: 900;
     text-transform: uppercase;
   }
@@ -492,7 +492,7 @@ footer a:hover {
     float: left;
     font-size: 10px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: unset;
+    font-family: "Oswald";
     font-weight: 900;
     text-transform: uppercase;
   }
@@ -506,7 +506,7 @@ footer a:hover {
     float: right;
     font-size: 10px;
     text-shadow: 1px 1px 2px #000000;
-    font-family: unset;
+    font-family: "Oswald";
     font-weight: 900;
     text-transform: uppercase;
   }
