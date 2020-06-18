@@ -65,7 +65,7 @@
                     <input type="email" class="contact-form-text" id="email" placeholder="Your email">
                     <input type="text" class="contact-form-text" id="message" placeholder="Your phone">
                     <textarea class="contact-form-text" placeholder="Your message"></textarea>
-                    <div class="contact-form">
+                    <div class="recaptcha-form">
                         <div data-netlify-recaptcha="true"></div>
                     </div>
                     <input type="submit" class="contact-form-btn" value="Send">
@@ -288,8 +288,12 @@ textarea.contact-form-text{
     box-shadow: 0 0 6px 4px #C3C3C3;
 }
 
-.data-netlify-recaptcha{
+.recaptcha-form{
     text-align: center;
+}
+
+.data-netlify-recaptcha{
+    display: inline-block;
 }
 
         /* footer section */
