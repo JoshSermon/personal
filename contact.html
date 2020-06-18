@@ -65,8 +65,8 @@
                     <input type="email" class="contact-form-text" id="email" placeholder="Your email">
                     <input type="text" class="contact-form-text" id="message" placeholder="Your phone">
                     <textarea class="contact-form-text" placeholder="Your message"></textarea>
-                    <div class="contact-form">
-                        <div data-netlify-recaptcha="true"></div>
+                    <div class="text-xs-center">
+                        <div class="g-recaptcha" data-sitekey=""></div>
                     </div>
                     <input type="submit" class="contact-form-btn" value="Send">
                 </form>
@@ -285,16 +285,17 @@ textarea.contact-form-text{
     font-weight: 900;
 }
 
-.contact-form{
-    text-align: center;
-}
-
-.data-netlify-recaptcha {
-    display: inline-block;
-}
 .contact-form-btn:hover{
     box-shadow: 0 0 6px 4px #C3C3C3;
 }
+
+.text-xs-center {
+        text-align: center;
+    }
+
+    .g-recaptcha {
+        display: inline-block;
+    }
 
         /* footer section */
 
