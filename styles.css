@@ -211,6 +211,10 @@ header {
   text-shadow: 1px 1px 1px #fff;
 }
 
+.btn:active {
+  transform: scale(0.98);
+}
+
 .btnsecond {
   background-color: #fff;
   border-radius: 2rem;
@@ -224,6 +228,10 @@ header {
   text-shadow: 1px 1px 1px #fff;
 }
 
+.btnsecond:active {
+  transform: scale(0.98);
+}
+
 .btn:hover {
   background-color: #c5c6c6;
   color: #fff;
@@ -232,7 +240,7 @@ header {
 }
 
 .btnsecond:hover {
-  background-color: #d00000;
+  background-color: #01365d;
   color: #fff;
   text-shadow: 0px 0px 0px #fff;
 }
