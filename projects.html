@@ -59,12 +59,11 @@
         <section class="hero">
             <div class="container">
                 <div class="main-message">
-                    <h1 data-aos="zoom-out" data-aos-duration="1500">Projects</h1>
-                    <a href="https://joshsermon.github.io/box/">
-                        <img src="images/proscreenBOX.png" alt="Logo" class="mac2" style="width: 690px; height: 520px;" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 data-aos="zoom-out" data-aos-duration="1500" style="margin-bottom: -90px;">Projects</h1>
+                        <img src="images/headproject.png" alt="Logo" class="mac2" style="width: 690px; height: 520px; padding: 0;" data-aos="fade-up" data-aos-duration="1000">
                         </a>
                         </div>
-                </div>
+                </div>å
             </div>
             <img src="images/Logo(White).png" alt="Logo" class="logo" style="width: 100px; height: 100px;">
         </section>
@@ -178,6 +177,22 @@
             <h3>I worked on redesigning a website for the iPhone 11 which is widely known as one of the most popular phones in today's world. I created this to get a better understanding of web and mobile development. This website displays all the features that makes this product so fascinating and worth the purchase.</h3>
             <div class="cta">
                 <a href="https://github.com/JoshSermon/SoftUI" class="btn5">View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero8">
+        <div class="container">
+        </div>
+        <a href="https://joshsermon.github.io/Car-Display/">
+        <img src="images/AmazonRain.png" alt="Logo" class="mac1" style="width: 690px; height: 520px; margin-top: -120px" data-aos="fade-right" data-aos-duration="1000">
+        </a>
+        <div class="title-heading">
+            <h1>Travel Destinations</h1>
+            <h2>HTML | CSS | JAVASCRIPT</h2>
+            <h3>I created a landing page that displays two areas. The first one is the Amazon Rain Forest and the other one is the Santa Maria Beach. Both of these areas are fantastic to visit and I wanted to display that in this website.</h3>
+            <div class="cta">
+                <a href="https://github.com/JoshSermon/Car-Display" class="btn8">View Code</a>
             </div>
         </div>
     </section>
@@ -372,6 +387,14 @@ header{
     position: relative;
 }
 
+.hero8{
+    width: 100%;
+    height: 95vh;
+    background: linear-gradient(360deg, #6f523b, #E2E2E2 100%), url("images/header-bg.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .hero::before{
     content: "";
     position: absolute;
@@ -535,6 +558,23 @@ header{
     font-size: 12px;
 }
 
+.btn8{
+    background-color:#432818;
+    border-radius: 1rem;
+    color: #fafafa;
+    display: inline-block;
+    margin-top: 1px;
+    padding: 2rem 4rem;
+    text-transform: uppercase;
+    transition: background-color 650ms;
+    font-family: "Oswald";
+    position: relative;
+    margin-left: 42.5%;
+    width: 9%;
+    text-align: center;
+    font-size: 12px;
+}
+
 .btn:hover{
     background-color: #87bba2;
     box-shadow: 3px 1rem 2rem rgba(0, 0, 0, 0.3);
@@ -573,6 +613,12 @@ header{
 
 .btn7:hover{
     background-color: #3c5233;
+    box-shadow: 3px 1rem 2rem rgba(0, 0, 0, 0.3);
+    transform: translateX(1rem);
+}
+
+.btn8:hover{
+    background-color: #725e54;
     box-shadow: 3px 1rem 2rem rgba(0, 0, 0, 0.3);
     transform: translateX(1rem);
 }
