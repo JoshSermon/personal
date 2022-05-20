@@ -153,9 +153,7 @@ header {
 /*hero*/
 .hero {
   width: 100%;
-  height: 84vh;
-  background: linear-gradient(360deg, #01365d, #e2e2e2 100%),
-    url("images/header-bg.jpg") center no-repeat;
+  background:url("images/_A7R9874.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -181,6 +179,9 @@ header {
 }
 
 .main-message h3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   font-size: 3rem;
   font-family: "Oswald";
   font-weight: 100;
@@ -189,12 +190,20 @@ header {
 }
 
 .main-message h1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
   font-family: "Passion One", cursive;
   font-weight: 100;
-  font-size: 7.2rem;
+  font-size: 4.2rem;
   margin: 1px 0;
   width: 100%;
   text-shadow: 1px 1px 1px #868686;
+}
+
+.cta{
+  display: none;
 }
 
 .btn {
@@ -557,4 +566,13 @@ footer a:hover {
     font-weight: 900;
     text-transform: uppercase;
   }
+}
+
+.section-two{
+  display: none;
+  background: #62645b;
+}
+
+.section-three{
+  display: none;
 }
