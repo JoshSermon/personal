@@ -151,14 +151,14 @@ header {
 }
 
 /*hero*/
-.hero {
+.section-hero {
   width: 100%;
   background:url("images/_A7R9874.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.hero::before {
+.section-hero::before {
   content: "";
   position: absolute;
   left: 0;
