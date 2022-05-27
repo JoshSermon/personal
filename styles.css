@@ -7,8 +7,6 @@
 }
 
 html {
-  font-family: "Oswald";
-  font-size: 10px;
   box-sizing: border-box;
 }
 
@@ -35,7 +33,7 @@ section {
 }
 
 body {
-  margin: 0 0 8px;
+  margin: 0;
   display: block;
 }
 
@@ -348,7 +346,6 @@ header {
 /* footer section */
 
 footer {
-  padding-bottom: 2px;
   background: #fff;
 }
 
