@@ -8,6 +8,11 @@
 
 html {
   box-sizing: border-box;
+  background:url("images/_A7R9874.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a {
@@ -26,10 +31,6 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
-}
-
-section {
-  padding: 5rem 0;
 }
 
 body {
@@ -134,7 +135,7 @@ header {
 }
 
 .logo {
-  display: flex;
+  display: none;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
@@ -150,12 +151,8 @@ header {
 
 /*hero*/
 .section-hero {
-  width: 100%;
-  background:url("images/_A7R9874.jpg") center no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
+  }
 .section-hero::before {
   content: "";
   position: absolute;
@@ -172,8 +169,7 @@ header {
   text-transform: uppercase;
   transform: translateY(20%);
   text-align: center;
-  margin: 25px 0;
-  margin-top: 100px;
+  margin-top: 21rem
 }
 
 .main-message h3 {
@@ -184,19 +180,18 @@ header {
   font-family: "Oswald";
   font-weight: 100;
   text-transform: capitalize;
-  margin: 1px 1px 4px 2px;
+  margin-bottom: 0;
 }
 
 .main-message h1 {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  text-align: right;
   font-family: "Passion One", cursive;
   font-weight: 100;
   font-size: 4.2rem;
-  margin: 1px 0;
   width: 100%;
+  margin-top: 0;
   text-shadow: 1px 1px 1px #868686;
 }
 
@@ -346,6 +341,7 @@ header {
 /* footer section */
 
 footer {
+  display: none;
   background: #fff;
 }
 
