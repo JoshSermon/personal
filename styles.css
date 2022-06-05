@@ -181,6 +181,7 @@ header {
   font-weight: 100;
   text-transform: capitalize;
   margin-bottom: 0;
+  margin-right: 2rem;
 }
 
 .main-message h1 {
@@ -192,7 +193,7 @@ header {
   font-size: 4.2rem;
   width: 100%;
   margin-top: 0;
-  text-shadow: 1px 1px 1px #868686;
+  text-shadow: 1px 3px 8px #000000;
 }
 
 .cta{
