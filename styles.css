@@ -167,7 +167,7 @@ header {
   text-transform: uppercase;
   transform: translateY(20%);
   text-align: center;
-  margin-top: 23.5rem
+  margin-top: 25.5rem
 }
 
 .main-message h3 {
@@ -180,6 +180,7 @@ header {
   text-transform: capitalize;
   margin-bottom: 0;
   margin-right: 2rem;
+  text-shadow: 1px 3px 8px #000000;
 }
 
 .main-message h1 {
